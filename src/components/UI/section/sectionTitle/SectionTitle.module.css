@@ -1,0 +1,37 @@
+.wrap {
+  /* text-align: center; */
+  margin-bottom: 48px;
+}
+.pill {
+  color: var(--primary-500);
+  background-color: var(--primary-100);
+  text-align: start;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 4px 8px;
+  border-radius: 50px;
+  display: inline-block;
+  line-height: 18px;
+}
+
+.title {
+  font-size: 36px;
+  margin-bottom: 16px;
+  color: var(--gray-900);
+}
+.subtitle {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: var(--gray-500);
+}
+
+.pillLeftSd {
+  display: block;
+  text-align: start;
+  max-width: 100px;
+}
+
+.mb0 {
+  margin-bottom: 0;
+}

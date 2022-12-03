@@ -1,0 +1,19 @@
+
+.btn{
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+background-color: var(--primary-500);
+color: #fff;
+padding: 14px 28px;
+display: inline-block;
+border-radius: 6px;
+}
+
+.bcgSecondary {
+  background-color: #d5dae1;
+}
+
+.colorSecondary {
+  color: #333f51;
+}

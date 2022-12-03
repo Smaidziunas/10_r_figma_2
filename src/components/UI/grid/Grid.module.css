@@ -1,0 +1,46 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+  list-style: none;
+  padding-left: 0;
+}
+
+.gap98{
+  gap: 98px;
+}
+
+/* COLUMN CLASSES */
+.gridColumns2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.gridColumns3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.gridColumns4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.gridColumns5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.gridColumns6 {
+  grid-template-columns: repeat(6, 1fr);
+}
+/* ================= */
+
+
+
+@media screen and (max-width: 800px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 500px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
