@@ -8,6 +8,7 @@ color: #fff;
 padding: 14px 28px;
 display: inline-block;
 border-radius: 6px;
+border: none;
 }
 
 .bcgSecondary {
@@ -16,4 +17,12 @@ border-radius: 6px;
 
 .colorSecondary {
   color: #333f51;
+}
+
+.login {
+  color: var(--gray-500);
+  background-color: transparent;
+  border: none;
+  font-weight: 500;
+  
 }

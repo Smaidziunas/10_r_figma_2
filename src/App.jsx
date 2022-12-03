@@ -1,3 +1,4 @@
+import { Route, Switch } from 'react-router-dom';
 import './App.css';
 import Cta from './components/CTA/Cta';
 import Features from './components/features/Features';
@@ -7,8 +8,14 @@ function App() {
   return (
     <div className='App'>
       <Nav />
-      <Features />
-      <Cta />
+      <Switch>
+        <Route path={'/features'}>
+          <Features />
+        </Route>
+        <Route path={'/cta'}>
+          <Cta />
+        </Route>
+      </Switch>
     </div>
   );
 }

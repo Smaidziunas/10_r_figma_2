@@ -5,7 +5,7 @@ function Button(props) {
     <button
       className={`${css.btn} ${props.bcgSecondary ? css.bcgSecondary : ''} ${
         props.colorSecondary ? css.colorSecondary : ''
-      }`}
+      } ${props.login ? css.login : ''}`}
     >
       {props.children}
     </button>

@@ -10,3 +10,16 @@
 .spaceBetween {
   justify-content: space-between;
 }
+
+.nav {
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 3rem;
+  color: var(--gray-500);
+  font-size: 1rem;
+  line-height: 24px;
+}
+
+ img {
+  min-width: 120px;
+ }
